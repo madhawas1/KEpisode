@@ -2,10 +2,9 @@
   "name": "kepisode",
   "version": "1.0.0",
   "description": "Automatic TV Series Downloader",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,11 @@
   "homepage": "https://github.com/madhawas1/KEpisode#readme",
   "dependencies": {
     "express": "4.16.2",
-    "helmet": "3.9.0",
-    "vue": "2.5.13"
+    "fs-extra": "5.0.0",
+    "opn": "5.1.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2"
   }
 }
