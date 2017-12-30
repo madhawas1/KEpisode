@@ -1,0 +1,24 @@
+{
+  "name": "kepisode",
+  "version": "1.0.0",
+  "description": "Automatic TV Series Downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhawas1/KEpisode.git"
+  },
+  "author": "Madhawa Ariyarathna",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/madhawas1/KEpisode/issues"
+  },
+  "homepage": "https://github.com/madhawas1/KEpisode#readme",
+  "dependencies": {
+    "express": "4.16.2",
+    "helmet": "3.9.0"
+  }
+}
