@@ -1,0 +1,27 @@
+{
+  "name": "kepisode",
+  "description": "Automatic TV Series Downloader",
+  "main": "public/index.html",
+  "authors": [
+    "Madhawa Ariyarathna"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "TV",
+    "Series",
+    "Download",
+    "Torrent"
+  ],
+  "homepage": "https://github.com/madhawas1/KEpisode",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}
