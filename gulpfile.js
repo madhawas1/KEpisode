@@ -1,18 +1,32 @@
 const gulp = require('gulp');
-const gulpClean = require('gulp-clean');
+const clean = require('gulp-clean');
+const replace = require('gulp-replace');
+
 const publicFolder = "server/public";
 const sourceFolder = "client";
 const bowerComponentFolder = "bower_components";
 
 gulp.task('clean', () => {
 
-    return gulp.src(publicFolder, {read: false})
-        .pipe(gulpClean({force: true}));
+    gulp.src(publicFolder, {
+        read: false
+    })
+        .pipe(clean({
+                force: true
+            }
+        ));
 });
 
 gulp.task('copyHtml', ['clean'], () => {
 
     return gulp.src(sourceFolder + '/index.html')
+        .pipe(replace([
+            '../bower_components/vue/dist/vue.js'
+        ], match => {
+            if (match[0].indexOf('vue.js') >= 0) {
+                return 'js/vue.js';
+            }
+        }))
         .pipe(gulp.dest(publicFolder));
 });
 
