@@ -17,14 +17,7 @@
   },
   "homepage": "https://github.com/madhawas1/KEpisode#readme",
   "dependencies": {
-    "express": "4.16.2",
-    "fs-extra": "5.0.0",
-    "opn": "5.1.0"
   },
   "devDependencies": {
-    "bower": "1.8.2",
-    "gulp": "3.9.1",
-    "gulp-clean": "0.3.2",
-    "gulp-replace": "0.6.1"
   }
 }
