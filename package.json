@@ -17,7 +17,18 @@
   },
   "homepage": "https://github.com/madhawas1/KEpisode#readme",
   "dependencies": {
+    "body-parser": "1.18.2",
+    "bootstrap": "4.0.0",
+    "chart.js": "2.7.1",
+    "express": "4.16.2",
+    "flag-icon-css": "2.9.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "morgan": "1.9.0",
+    "pace-progress": "1.0.2",
+    "popper.js": "1.12.9",
+    "simple-line-icons": "2.4.1",
+    "vue": "2.5.13"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
